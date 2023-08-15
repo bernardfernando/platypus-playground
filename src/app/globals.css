@@ -1,9 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -104,4 +104,53 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.paddle-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff10;
+  padding: 10px;
+}
+.plat-img {
+  height: auto;
+  width: 200px;
+}
+.plat-border {
+  border: 10px solid rgb(160, 57, 57);
+  border-radius: 9%;
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: #0071ff33;
+}
+
+.nav-1 a {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  margin: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: beige;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.header-title,
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+}
+.paddle-page h2 {
+  text-align: center;
+  color: rgba(189, 29, 29, 1);
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 1);
 }
